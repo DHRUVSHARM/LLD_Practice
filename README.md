@@ -1,10 +1,10 @@
-# LibreSignal 🚦
-
-A practice framework for CodeSignal's Industry Coding Framework (ICF) assessments.
-
 ## 🎯 Purpose
 
-This repository provides a realistic simulation environment to prepare for **CodeSignal's Industry Coding Framework (ICF)** assessments. It mirrors the actual test format with multi-level coding problems where each subsequent level builds upon the previous one.
+This repository provides a realistic simulation environment to prepare for **CodeSignal's Industry Coding Framework (ICF)** assessments. It mirrors the actual test format with multi-level coding problems where each subsequent level builds upon the previous one. This also serves as practice for LLD type questions 
+
+Will continue to update with more questions and my customn solutions to them 
+
+My solutions for each problem is under simulation.py 
 
 ## 💡 Inspiration
 
@@ -17,28 +17,6 @@ After reading [How hackable are automated coding assessments?](https://yanirsero
 ### Score to Percentile Conversion
 
 CodeSignal provides a [conversion table](https://support.codesignal.com/hc/en-us/articles/13260678794775-Converting-Historical-Coding-Score-Thresholds-to-Assessment-Score) to translate your score to a percentile ranking.
-
-### My Experience
-
-I passed the screening for a well-funded fintech startup with a score of **480**, which corresponds to the **82nd percentile**. Based on this, here's a general guideline:
-
-| Score | Percentile | Likelihood of Passing |
-|-------|------------|----------------------|
-| < 450 | < 70% | May struggle with competitive companies |
-| 480 | ~82% | Passed startup screening |
-| **500+** | **~85%+** | **Safe target for most companies** |
-
-**🎯 Aim for 500+ to confidently pass most company screenings.**
-
-### 💡 Pro Tip: Modularity Matters
-
-CodeSignal's ICF assessments evaluate **modularity** as a scoring factor. Demonstrate your understanding of **SOLID principles**:
-
-- **Encapsulate your data in classes** — Don't just use dictionaries everywhere
-- **Think about extensibility** — Each level builds on the previous one
-- **Use proper OOP patterns** — Not only does this showcase your software engineering skills, but it makes Levels 3 and 4 significantly easier
-
-For example, instead of storing account data in a simple dict, create an `Account` class with methods for deposit, withdraw, and transaction history. When you reach Level 3 (scheduled payments) and Level 4 (account merging), you'll thank yourself.
 
 ## 🚀 Usage
 
